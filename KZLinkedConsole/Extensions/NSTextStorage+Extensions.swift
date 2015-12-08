@@ -56,7 +56,7 @@ extension NSTextStorage {
             addAttribute(NSLinkAttributeName, value: "", range: fullRange)
             addAttribute(KZLinkedConsole.Strings.linkedPath, value: result, range: fullRange)
             addAttribute(KZLinkedConsole.Strings.linkedLine, value: text.substringWithRange(lineRange), range: fullRange)
-            addAttribute(NSBackgroundColorAttributeName, value: NSColor.whiteColor(), range: fullRange)
+            addAttribute(NSBackgroundColorAttributeName, value: NSColor.lightGrayColor(), range: fullRange)
         }
     }
 
